@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta name="layout" content="main"/>
+		<meta name="layout" content="basic"/>
 		<title>Melanie M Zwegers - About</title>
 	</head>
 	<body>
