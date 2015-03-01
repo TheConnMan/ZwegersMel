@@ -24,6 +24,7 @@
 			<li id="about"><g:link controller="home" action="about">About</g:link></li>
 			<li id="events"><g:link controller="home" action="events">Events</g:link></li>
 			<li id="contact"><g:link controller="home" action="contact">Contact</g:link></li>
+			<li><g:link controller="event">Edit Events</g:link></li>
 		</ul>
 		<g:layoutBody/>
 		<r:layoutResources />
