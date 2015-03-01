@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>404</title>
-		<meta name="layout" content="main">
+		<meta name="layout" content="basic">
 	</head>
 	<body>
 		<div class="content">
