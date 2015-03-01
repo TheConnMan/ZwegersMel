@@ -29,9 +29,7 @@ ul.menu {
 
 .menu > li {
 	display: inline-block;
-	width: 60px;
-	padding: 7px;
-	border-radius: 5px;
+	padding: 10px;
 }
 
 ul.menu > li:hover, ul.menu > li.active {
@@ -90,6 +88,12 @@ table.split-content td {
 	width: 50%;
 	padding: 10px;
 	vertical-align: top;
+}
+
+/* Colors */
+
+.blue {
+	color: #6363EB;
 }
 
 /* Other */

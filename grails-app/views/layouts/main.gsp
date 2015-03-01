@@ -20,7 +20,7 @@
 		<h1 class="title">MELANIE M ZWEGERS</h1>
 		<ul class="menu">
 			<li id="home"><g:link controller="home">Home</g:link></li>
-			<li id="book"><g:link controller="home" action="book">Book</g:link></li>
+			<li id="book"><g:link controller="home" action="book">Buy The Book</g:link></li>
 			<li id="about"><g:link controller="home" action="about">About</g:link></li>
 			<li id="events"><g:link controller="home" action="events">Events</g:link></li>
 			<li id="contact"><g:link controller="home" action="contact">Contact</g:link></li>

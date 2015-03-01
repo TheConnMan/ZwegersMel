@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<meta name="layout" content="main"/>
-		<title>Melanie M Zwegers - Home</title>
+		<title>Melanie M Zwegers - About</title>
 	</head>
 	<body>
 		<div class="content">

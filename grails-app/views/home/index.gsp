@@ -6,7 +6,7 @@
 	</head>
 	<body>
 		<div class="content">
-			<h3 style="color: #6363EB;"><i>Now Available</i></h3>
+			<h3 class="blue"><i>Now Available</i></h3>
 			<h1 style="margin-bottom: 0;">INTO THE GARDEN</h1>
 			<h2 style="margin-top: 0;"><i>Verses for Hearts Young & Old</i></h2>
 			<h3 style="margin-bottom: 0;">Written and Illustrated by</h3>
