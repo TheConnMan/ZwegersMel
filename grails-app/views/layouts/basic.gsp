@@ -24,7 +24,9 @@
 			<li id="about"><g:link controller="home" action="about">About</g:link></li>
 			<li id="events"><g:link controller="home" action="events">Events</g:link></li>
 			<li id="contact"><g:link controller="home" action="contact">Contact</g:link></li>
-			<li><g:link controller="event">Edit Events</g:link></li>
+			<sec:ifAllGranted roles="ROLE_ADMIN">
+				<li><g:link controller="event">Edit Events</g:link></li>
+			</sec:ifAllGranted>
 		</ul>
 		<g:layoutBody/>
 		<r:layoutResources />
