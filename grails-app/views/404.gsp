@@ -2,17 +2,14 @@
 <html>
 	<head>
 		<title>404</title>
-		<meta name="layout" content="semantic">
+		<meta name="layout" content="main">
 	</head>
 	<body>
-		<div class="ui segment">
-			<h1 class="ui center aligned icon header">
-				<i class="bug icon"></i>
-				<div class="content">
-					Sorry, that page is missing
-					<div class="sub header">Click <a href="/">here</a> to return to safety</div>
-				</div>
-			</h1>
+		<div class="content">
+			<h1>That page appears to be missing</h1>
+			<p>
+				Take me back <a href="/">home</a>
+			</p>
 		</div>
 	</body>
 </html>
