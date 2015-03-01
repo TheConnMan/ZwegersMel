@@ -96,6 +96,22 @@ environments {
     }
 }
 
+grails {
+	mail {
+		host = "email-smtp.us-east-1.amazonaws.com"
+		port = 465
+		username=localConfig.theconnman.aws.ses.username
+		password=localConfig.theconnman.aws.ses.password
+		props = [
+			"mail.smtp.auth": "true",
+			"mail.smtp.socketFactory.port": "465",
+			"mail.smtp.socketFactory.class":  "javax.net.ssl.SSLSocketFactory",
+			"mail.smtp.socketFactory.fallback": "false"
+		]
+	}
+}
+grails.mail.default.from = "brian@theconnman.com"
+
 // log4j configuration
 log4j = {
     // Example of changing the log pattern for the default console appender:
