@@ -20,6 +20,20 @@ a:hover {
 	color: #659CEF;
 }
 
+.button {
+	color: white;
+	background-color: #5199a8;
+	padding: 8px 20px;
+	font-size: 14px;
+	border: none;
+	cursor: pointer;
+}
+
+.message {
+	padding: 15px;
+	border: 1px solid #DDD;
+}
+
 /* Menu */
 
 ul.menu {
@@ -63,6 +77,28 @@ ul.menu a:hover {
 	position: relative;
 	vertical-align: middle;
 	width: 30%;
+}
+
+/* Form */
+
+.contact {
+	text-align: left;
+}
+
+.contact > input, .contact > textarea {
+	width: 100%;
+	border-radius: 2px;
+	padding: 5px;
+	margin: 5px 0;
+	border: 1px solid #d0d0d0;
+}
+
+.contact > textarea {
+	height: 200px;
+}
+
+.contact > input:focus, .contact > textarea:focus {
+	outline: none;
 }
 
 /* Content */

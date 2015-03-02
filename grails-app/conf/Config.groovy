@@ -89,9 +89,11 @@ grails.hibernate.cache.queries = false
 environments {
     development {
         grails.logging.jul.usebridge = true
+		contact.email = 'brian@theconnman.com'
     }
     production {
         grails.logging.jul.usebridge = false
+		contact.email = 'contact@melaniemzwegers.com'
         // TODO: grails.serverURL = "http://www.changeme.com"
     }
 }

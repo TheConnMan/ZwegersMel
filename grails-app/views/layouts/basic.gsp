@@ -26,6 +26,7 @@
 			<li id="contact"><g:link controller="home" action="contact">Contact</g:link></li>
 			<sec:ifAllGranted roles="ROLE_ADMIN">
 				<li><g:link controller="event">Edit Events</g:link></li>
+				<li><g:link controller="message">Comments</g:link></li>
 			</sec:ifAllGranted>
 		</ul>
 		<g:layoutBody/>
