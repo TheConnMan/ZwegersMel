@@ -19,11 +19,11 @@
 					<td>
 						<h2>Contact Melanie M Zwegers</h2>
 						<g:form action="submitContact" class="contact">
-							<label>Name</label>
+							<label>Name</label><span class="required">*</span>
 							<g:field type="text" name="name" required="true" />
-							<label>Email</label>
+							<label>Email</label><span class="required">*</span>
 							<g:field type="email" name="email" required="true" />
-							<label>Comment</label>
+							<label>Comment</label><span class="required">*</span>
 							<g:textArea name="comment" required="true" maxlength="500" />
 							<button class="button">Submit</button>
 						</g:form>

@@ -90,11 +90,12 @@ environments {
     development {
         grails.logging.jul.usebridge = true
 		contact.email = 'brian@theconnman.com'
+        grails.serverURL = "http://localhost:8080"
     }
     production {
         grails.logging.jul.usebridge = false
 		contact.email = 'contact@melaniemzwegers.com'
-        // TODO: grails.serverURL = "http://www.changeme.com"
+        grails.serverURL = "http://melaniemzwegers.com"
     }
 }
 

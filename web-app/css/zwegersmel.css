@@ -34,6 +34,10 @@ a:hover {
 	border: 1px solid #DDD;
 }
 
+.clickable {
+	cursor: pointer;
+}
+
 .footer {
 	margin-top: 25px;
 }
@@ -105,6 +109,10 @@ ul.menu a:hover {
 	outline: none;
 }
 
+.contact .required {
+	color: red;
+}
+
 /* Content */
 
 .title {
@@ -130,6 +138,28 @@ table.split-content td {
 	vertical-align: top;
 }
 
+/* Reviews */
+
+.reviews {
+	text-align: left;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.review {
+	border: 1px solid #DDD;
+	border-bottom: none;
+	padding: 15px;
+}
+
+.review:last-child {
+	border-bottom: 1px solid #DDD;
+}
+
+.review h2 {
+	margin: 0;
+}
+
 /* Colors */
 
 .blue {
@@ -141,4 +171,19 @@ table.split-content td {
 .image-border {
 	border: 2px solid #CCC;
 	padding: 1px;
+}
+
+.star:before {
+	content: "";
+	display: inline-block;
+	width: 24px;
+	height: 23px;
+}
+
+.star.empty:before {
+	background: url('images/Star_Empty.png') no-repeat;
+}
+
+.star.full:before {
+	background: url('images/Star_Full.png') no-repeat;
 }
