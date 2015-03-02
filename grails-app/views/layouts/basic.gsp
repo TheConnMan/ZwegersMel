@@ -33,7 +33,7 @@
 		</ul>
 		<g:layoutBody/>
 		<div class="footer">
-			All content © 2015 Melanie M Zwegers, Email <a href="mailto:contact@melaniemzwegers.com">contact@melaniemzwegers.com</a>
+			All content © 2015 Melanie M Zwegers
 		</div>
 		<r:layoutResources />
 	</body>
