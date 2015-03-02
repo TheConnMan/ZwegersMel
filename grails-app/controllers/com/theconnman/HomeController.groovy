@@ -42,8 +42,7 @@ class HomeController {
 		Review review = new Review(
 			title: params.title,
 			content: params.content,
-			createdDate: new Date(),
-			stars: params.stars
+			createdDate: new Date()
 		)
 		if (params.author) {
 			review.author = params.author;

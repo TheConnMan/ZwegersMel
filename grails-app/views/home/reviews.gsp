@@ -15,9 +15,6 @@
 				<g:each in="${ reviews }" var="review">
 					<div class="review">
 						<h2 class="blue">${ review.title }</h2>
-						<g:each in="${ (0..4) }">
-							<i class="star ${ it < review.stars ? 'full' : 'empty' }"></i>
-						</g:each>
 						<p>
 							${ review.content }
 						</p>
@@ -35,11 +32,6 @@
 					<g:field type="text" name="title" required="true" />
 					<label>Author</label>
 					<g:field type="text" name="author" placeholder="Anonymous" />
-					<label>Stars</label><span class="required">*</span><br />
-					<g:each in="${ (0..4) }">
-						<i class="star clickable full" id="star-${ it }"></i>
-					</g:each><br />
-					<g:field type="hidden" name="stars" value="5" />
 					<label>Review</label><span class="required">*</span>
 					<g:textArea name="content" required="true" maxlength="500" />
 					<button class="button">Submit</button>
@@ -49,13 +41,6 @@
 		<script>
 			$(function() {
 				$('#reviews').addClass('active');
-				$('.star.clickable').click(function() {
-					var num = parseInt($(this).attr('id').split('-')[1]);
-					$('#stars').val(num + 1);
-					console.log($('.star.clickable:lt(' + (num + 1) + ')'))
-					$('.star.clickable:lt(' + (num + 1) + ')').removeClass('empty').addClass('full');
-					$('.star.clickable:gt(' + num + ')').removeClass('full').addClass('empty');
-				});
 			});
 		</script>
 	</body>
