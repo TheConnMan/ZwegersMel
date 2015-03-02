@@ -89,12 +89,36 @@ grails.hibernate.cache.queries = false
 environments {
     development {
         grails.logging.jul.usebridge = true
+		contact.email = 'brian@theconnman.com'
+        grails.serverURL = "http://localhost:8080"
+    }
+    devdeploy {
+        grails.logging.jul.usebridge = false
+		contact.email = 'contact@melaniemzwegers.com'
+        grails.serverURL = "http://dev.melaniemzwegers.com"
     }
     production {
         grails.logging.jul.usebridge = false
-        // TODO: grails.serverURL = "http://www.changeme.com"
+		contact.email = 'contact@melaniemzwegers.com'
+        grails.serverURL = "http://melaniemzwegers.com"
     }
 }
+
+grails {
+	mail {
+		host = "email-smtp.us-east-1.amazonaws.com"
+		port = 465
+		username=localConfig.theconnman.aws.ses.username
+		password=localConfig.theconnman.aws.ses.password
+		props = [
+			"mail.smtp.auth": "true",
+			"mail.smtp.socketFactory.port": "465",
+			"mail.smtp.socketFactory.class":  "javax.net.ssl.SSLSocketFactory",
+			"mail.smtp.socketFactory.fallback": "false"
+		]
+	}
+}
+grails.mail.default.from = "brian@theconnman.com"
 
 // log4j configuration
 log4j = {

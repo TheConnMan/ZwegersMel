@@ -1,0 +1,63 @@
+[{
+	"name": "Emerson School Visit",
+	"start": "03/09/2015 09:30",
+	"end": "03/13/2015 14:30",
+	"date": "Monday-Friday, March 9-13 2015, 9:30-2:30pm",
+	"venue": "Elementary Grades in the Library",
+	"location": "5425 Scio Church Road, Ann Arbor, MI 48103"
+}, {
+	"name": "Private Release Party",
+	"start": "03/22/2015 13:00",
+	"end": "03/22/2015 17:00",
+	"date": "Sunday, March 22 2015, 1:00-5:00pm",
+	"venue": "Invitation Only"
+}, {
+	"name": "Niji-Iro Elementary School Visit",
+	"start": "03/25/2015 09:30",
+	"end": "03/25/2015 11:30",
+	"date": "Wednesday, March 25 2015, 9:30-11:30am",
+	"venue": "Elementary Grades in the Classrooms",
+	"location": "36611 Curtis Road, Livonia, MI 48152"
+}, {
+	"name": "First Friday Featured Artist",
+	"start": "04/03/2015 18:00",
+	"end": "04/03/2015 21:00",
+	"date": "Friday, April 3 2015, 6:00-9:00pm",
+	"venue": "Starring Gallery",
+	"location": "118 W Main St, Northville, MI 48167"
+}, {
+	"name": "Book Reading and Signing",
+	"start": "04/12/2015 13:00",
+	"end": "04/12/2015 17:00",
+	"date": "Sunday, April 12 2015, 1:00-5:00pm",
+	"venue": "Park Place Apartments Clubhouse",
+	"location": "43001 Northville Pl Dr, Northville, MI 48167"
+}, {
+	"name": "Book Booth",
+	"start": "04/18/2015 10:00",
+	"end": "04/18/2015 15:00",
+	"date": "Saturday, April 18 2015 10:00-3:00pm",
+	"venue": "St Therese Lisieux Church Hall",
+	"location": "48115 Schoenherr, Shelby Township, 48315"
+}, {
+	"name": "Book Signing",
+	"start": "04/23/2015 10:00",
+	"end": "04/23/2015 14:30",
+	"date": "Saturday, May 23 2015 10:00am-2:30pm",
+	"venue": "New School Church, Mill Race Village",
+	"location": "215 Griswold St, Northville MI 48167"
+}, {
+	"name": "Book Booth",
+	"start": "05/16/2015 10:00",
+	"end": "05/17/2015 16:00",
+	"date": "Saturday and Sunday, May 16-17 2015, 10:00-4:00pm",
+	"venue": "Kensington Park Nature Center",
+	"location": "4570 Huron River Parkway, Milford, MI 48380"
+}, {
+	"name": "Meet the Author",
+	"start": "06/01/2015 01:00",
+	"end": "06/01/2015 01:00",
+	"date": "TBD June 2015",
+	"venue": "The Next Chapter Bookstore and Bistro",
+	"location": "141 E Main Street, Northville, MI 48167"
+}]

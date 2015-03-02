@@ -1,0 +1,189 @@
+/* General */
+
+html {
+	height: 100%;
+	background-color: #FDFDFD;
+	font-family: "EB Garamond";
+	text-align: center;
+	color: #555;
+}
+
+h1, h2, h3, h4 {
+	font-weight: normal;
+}
+
+a {
+	color: #555;
+}
+
+a:hover {
+	color: #659CEF;
+}
+
+.button {
+	color: white;
+	background-color: #5199a8;
+	padding: 8px 20px;
+	font-size: 14px;
+	border: none;
+	cursor: pointer;
+}
+
+.message {
+	padding: 15px;
+	border: 1px solid #DDD;
+}
+
+.clickable {
+	cursor: pointer;
+}
+
+.footer {
+	margin-top: 25px;
+}
+
+/* Menu */
+
+ul.menu {
+	list-style-type: none;
+	padding: 0;
+}
+
+.menu > li {
+	display: inline-block;
+	padding: 10px;
+}
+
+ul.menu > li:hover, ul.menu > li.active {
+	background-color: #DDD;
+}
+
+ul.menu a:hover {
+	color: #555;
+}
+
+.menu > li > a {
+	text-decoration: none;
+}
+
+.menu:before {
+	right: 29px;
+	margin-left: -50%;
+}
+
+.menu:after {
+	left: 29px;
+	margin-right: -50%;
+}
+
+.menu:before, .menu:after {
+	background-color: #d0d0d0;
+	content: "";
+	display: inline-block;
+	height: 1px;
+	bottom: .1em;
+	position: relative;
+	vertical-align: middle;
+	width: 30%;
+}
+
+/* Form */
+
+.contact {
+	text-align: left;
+}
+
+.contact > input, .contact > textarea {
+	width: 100%;
+	border-radius: 2px;
+	padding: 5px;
+	margin: 5px 0;
+	border: 1px solid #d0d0d0;
+}
+
+.contact > textarea {
+	height: 200px;
+}
+
+.contact > input:focus, .contact > textarea:focus {
+	outline: none;
+}
+
+.contact .required {
+	color: red;
+}
+
+/* Content */
+
+.title {
+	margin-top: 50px;
+}
+
+.content {
+	clear: both;
+	margin-top: 75px;
+	color: #777;
+}
+
+/* Split Content */
+
+table.split-content {
+	width: 800px;
+	margin: 0 auto;
+}
+
+table.split-content td {
+	width: 50%;
+	padding: 10px;
+	vertical-align: top;
+}
+
+/* Reviews */
+
+.reviews {
+	text-align: left;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+.review {
+	border: 1px solid #DDD;
+	border-bottom: none;
+	padding: 15px;
+}
+
+.review:last-child {
+	border-bottom: 1px solid #DDD;
+}
+
+.review h2 {
+	margin: 0;
+}
+
+/* Colors */
+
+.blue {
+	color: #6363EB;
+}
+
+/* Other */
+
+.image-border {
+	border: 2px solid #CCC;
+	padding: 1px;
+}
+
+.star:before {
+	content: "";
+	display: inline-block;
+	width: 24px;
+	height: 23px;
+}
+
+.star.empty:before {
+	background: url('images/Star_Empty.png') no-repeat;
+}
+
+.star.full:before {
+	background: url('images/Star_Full.png') no-repeat;
+}
