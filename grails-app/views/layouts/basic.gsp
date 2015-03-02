@@ -27,8 +27,8 @@
 			<li id="review"><g:link controller="home" action="reviews">Reviews</g:link></li>
 			<sec:ifAllGranted roles="ROLE_ADMIN">
 				<li><g:link controller="event">Edit Events</g:link></li>
-				<li><g:link controller="message">Comments</g:link></li>
-				<li><g:link controller="review">Review</g:link></li>
+				<li><g:link controller="message">Edit Comments</g:link></li>
+				<li><g:link controller="review">Edit Reviews</g:link></li>
 			</sec:ifAllGranted>
 		</ul>
 		<g:layoutBody/>
