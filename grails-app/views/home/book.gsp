@@ -27,6 +27,10 @@
 							<i>$17.95</i>
 						</p>
 						<h2 class="blue">Order Now!</h2>
+						<p>
+							Shipping is available in <b>USA, Canada and Japan</b>.<br />
+							Please contact for shipping rates to other countries.
+						</p>
 						<form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 							<input type="hidden" name="cmd" value="_s-xclick">
 							<input type="hidden" name="hosted_button_id" value="UW7VSNZAH66FG">

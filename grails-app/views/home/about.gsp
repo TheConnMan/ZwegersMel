@@ -13,7 +13,7 @@
 					</td>
 					<td>
 						<p style="margin-top: 100px;">
-							Melanie M Zwegers is a writer and illustrator of children's poetry.
+							Melanie M Zwegers is a writer and illustrator of children's literature.
 						</p>
 						<p>
 							She is a native of Ann Arbor, Michigan and graduated with honors and two degrees from the University of Michigan.
