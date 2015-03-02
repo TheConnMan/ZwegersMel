@@ -92,6 +92,11 @@ environments {
 		contact.email = 'brian@theconnman.com'
         grails.serverURL = "http://localhost:8080"
     }
+    devdeploy {
+        grails.logging.jul.usebridge = false
+		contact.email = 'contact@melaniemzwegers.com'
+        grails.serverURL = "http://dev.melaniemzwegers.com"
+    }
     production {
         grails.logging.jul.usebridge = false
 		contact.email = 'contact@melaniemzwegers.com'
