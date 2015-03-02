@@ -10,7 +10,7 @@ class Review {
 
     static constraints = {
 		title()
-		content maxSize: 500
+		content maxSize: 2000
 		createdDate()
 		author()
 		approved()
