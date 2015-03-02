@@ -33,7 +33,7 @@
 					<label>Author</label>
 					<g:field type="text" name="author" placeholder="Anonymous" />
 					<label>Review</label><span class="required">*</span>
-					<g:textArea name="content" required="true" maxlength="500" />
+					<g:textArea name="content" required="true" maxlength="2000" />
 					<button class="button">Submit</button>
 				</g:form>
 			</div>
