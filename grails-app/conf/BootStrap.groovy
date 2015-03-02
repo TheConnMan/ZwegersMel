@@ -18,22 +18,24 @@ class BootStrap {
 		def localConfig = new ConfigSlurper().parse(new File(loc).toURI().toURL());
 		
 		println 'Bootstrapping'
-		new Role(authority: "ROLE_ADMIN").save();
-		new Role(authority: "ROLE_USER").save();
-		
-		localConfig.zwegersmel.users.each {
-			createUser(it.username, it.password, Role.findByAuthority(it.role));
-		}
-		
-		JSON.parse(grailsApplication.mainContext.getResource('data/Events.json').file.text).each { event ->
-			new Event(
-				name: event.name,
-				date: event.date,
-				startDate: Date.parse('MM/dd/yyyy HH:mm', event.start),
-				endDate: Date.parse('MM/dd/yyyy HH:mm', event.end),
-				venue: event.venue,
-				location: event.location
-			).save();
+		if (Role.count() == 0) {
+			new Role(authority: "ROLE_ADMIN").save();
+			new Role(authority: "ROLE_USER").save();
+			
+			localConfig.zwegersmel.users.each {
+				createUser(it.username, it.password, Role.findByAuthority(it.role));
+			}
+			
+			JSON.parse(grailsApplication.mainContext.getResource('data/Events.json').file.text).each { event ->
+				new Event(
+					name: event.name,
+					date: event.date,
+					startDate: Date.parse('MM/dd/yyyy HH:mm', event.start),
+					endDate: Date.parse('MM/dd/yyyy HH:mm', event.end),
+					venue: event.venue,
+					location: event.location
+				).save();
+			}
 		}
     }
 	
