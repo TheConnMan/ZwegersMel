@@ -19,7 +19,7 @@
 							${ review.content }
 						</p>
 						<p>
-						-- ${ review.author } - ${ review.createdDate.format('MM/dd/yyyy HH:mm') }
+						-- ${ review.author } - ${ review.createdDate.format('MM/dd/yyyy') }
 						</p>
 					</div>
 				</g:each>
