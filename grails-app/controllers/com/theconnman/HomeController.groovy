@@ -35,7 +35,7 @@ class HomeController {
 	}
 	
 	def reviews() {
-		[reviews: Review.findAllByApproved(true, [mae: 5, sort: 'createdDate'])]
+		[reviews: Review.findAllByApproved(true, [mae: 5, sort: 'createdDate', order: 'desc'])]
 	}
 	
 	def submitReview() {
