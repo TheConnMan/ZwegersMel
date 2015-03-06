@@ -1,37 +1,13 @@
-Grails Base
+ZwegersMel
 ==========
 
-A base Grails project to bootstrap rapid development projects. The project includes my favorite Grails plugins, JavaScript libraries, and default configurations.
+### [INTO THE GARDEN](http://melaniemzwegers.com/)
+#### Verses for Hearts Young & Old
 
-# Includes
+A website for the author Melanie Zwegers where you can:
 
-## Grails Plugins
-
-- [Quartz](http://grails.org/plugin/quartz) - Job scheduling
-- [Executor](http://www.grails.org/plugin/executor) - Background threading
-- [Spring Security](http://grails.org/plugin/spring-security-core) - Basic Grails security
-
-## Libraries
-
-- [AWS Java SDK](http://aws.amazon.com/sdk-for-java/) -  AWS SDK
-
-## JavaScript Libraries
-
-- [Semantic UI](http://semantic-ui.com/) - Frontend styling framework
-- [jQuery](http://jquery.com/) - JavaScript utility library
-- [Sweet Alert](http://tristanedwards.me/sweetalert) - Beautiful JavaScript alert replacement
-
-## Bootstrap
-
-- Creates two default users **admin** and **user** with their respective roles
-
-# Setup
-
-## To Do
-
-- Change package names
-- Change default users and passwords
-
-## UserConfig
-
-Grails Base uses an external config file to load secrets into the application. By default the application looks in the folder above the project folder for a file named **UserConfig.groovy**
+- [Buy the book](http://melaniemzwegers.com/book)
+- [Read about the author](http://melaniemzwegers.com/about)
+- [See upcoming events](http://melaniemzwegers.com/events)
+- [Contact the author](http://melaniemzwegers.com/contact)
+- [Read and submit reviews](http://melaniemzwegers.com/reviews)
