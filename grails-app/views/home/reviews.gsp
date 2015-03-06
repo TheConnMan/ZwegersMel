@@ -28,13 +28,13 @@
 				<h2 class="blue">Have a review or testimonial you'd like to share?</h2>
 				<h3>Let us know by filling out the form below!</h3>
 				<g:form action="submitReview" class="contact">
-					<label>Title</label><span class="required">*</span>
+					<label>Review Title</label><span class="required">*</span>
 					<g:field type="text" name="title" required="true" />
-					<label>Author</label>
+					<label>Your Name</label>
 					<g:field type="text" name="author" placeholder="Anonymous" />
 					<label>Review</label><span class="required">*</span>
 					<g:textArea name="content" required="true" maxlength="2000" />
-					<button class="button">Submit</button>
+					<button class="button">Submit Review</button>
 				</g:form>
 			</div>
 		</div>
