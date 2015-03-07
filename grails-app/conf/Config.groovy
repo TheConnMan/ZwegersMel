@@ -86,21 +86,32 @@ grails.exceptionresolver.params.exclude = ['password']
 // configure auto-caching of queries by default (if false you can cache individual queries with 'cache: true')
 grails.hibernate.cache.queries = false
 
+grails {
+	plugin {
+		databasebackups {
+			bucket = localConfig.zwegersmel.databasebackups.bucket
+		}
+	}
+}
+
 environments {
     development {
         grails.logging.jul.usebridge = true
 		contact.email = 'brian@theconnman.com'
         grails.serverURL = "http://localhost:8080"
+		grails.plugin.databasebackups.on = false
     }
     devdeploy {
         grails.logging.jul.usebridge = false
 		contact.email = 'contact@melaniemzwegers.com'
         grails.serverURL = "http://dev.melaniemzwegers.com"
+		grails.plugin.databasebackups.filename = '-zwegersmel-dev'
     }
     production {
         grails.logging.jul.usebridge = false
 		contact.email = 'contact@melaniemzwegers.com'
         grails.serverURL = "http://melaniemzwegers.com"
+		grails.plugin.databasebackups.filename = '-zwegersmel'
     }
 }
 

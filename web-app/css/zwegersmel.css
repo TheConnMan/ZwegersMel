@@ -93,7 +93,7 @@ ul.menu a:hover {
 	text-align: left;
 }
 
-.contact > input, .contact > textarea {
+.contact input:not(.button), .contact textarea {
 	width: 100%;
 	border-radius: 2px;
 	padding: 5px;
@@ -101,16 +101,20 @@ ul.menu a:hover {
 	border: 1px solid #d0d0d0;
 }
 
-.contact > textarea {
+.contact textarea {
 	height: 200px;
 }
 
-.contact > input:focus, .contact > textarea:focus {
+.contact input:focus, .contact textarea:focus {
 	outline: none;
 }
 
-.contact .required {
+.contact span.required {
 	color: red;
+}
+
+#mc_embed_signup div.mce_inline_error {
+	font-weight: normal!important;
 }
 
 /* Content */

@@ -70,5 +70,6 @@ grails.project.dependency.resolution = {
 		
 		runtime ':email-confirmation:2.0.8'
         runtime ':mail:1.0.8-SNAPSHOT'
+		compile ':database-backups:1.0.0'
     }
 }
