@@ -11,7 +11,7 @@
 			<h2 style="margin-top: 0;"><i>Verses for Hearts Young & Old</i></h2>
 			<h3 style="margin-bottom: 0;">Written and Illustrated by</h3>
 			<h3 style="margin-top: 0;">Melanie M Zwegers</h3>
-			<img src="${resource(dir: 'images', file: 'Web Rabbit Small.png')}" />
+			<img src="${resource(dir: 'images', file: 'Web_Rabbit_Small.png')}" />
 		</div>
 		<g:each in="${ images }">
 			<img class="animation" src="${ resource(dir: 'images', file: 'animations/' + it) }" />
