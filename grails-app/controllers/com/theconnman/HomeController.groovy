@@ -1,10 +1,15 @@
 package com.theconnman
 
+import grails.converters.JSON
+
 class HomeController {
 	
 	def grailsApplication
 
-    def index() { }
+    def index() {
+		Collection<String> images = grailsApplication.mainContext.getResource('images/animations').file.listFiles()*.name.grep { it.endsWith('.png') };
+		[images: images]
+	}
 
     def book() { }
 

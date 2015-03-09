@@ -178,6 +178,16 @@ table.split-content td {
 	color: #6363EB;
 }
 
+/* Animations */
+
+.animation {
+	position: fixed;
+	top: -100px;
+	height: 100px;
+	transform: translate(-50%, 0);
+	z-index: -1;
+}
+
 /* Other */
 
 .image-border {
