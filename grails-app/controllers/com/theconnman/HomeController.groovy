@@ -6,10 +6,7 @@ class HomeController {
 	
 	def grailsApplication
 
-    def index() {
-		Collection<String> images = grailsApplication.mainContext.getResource('images/animations').file.listFiles()*.name.grep { it.endsWith('.png') };
-		[images: images]
-	}
+    def index() { }
 
     def book() { }
 
