@@ -17,16 +17,23 @@
 			<img class="animation" src="${ resource(dir: 'images', file: 'animations/' + it) }" />
 		</g:each>
 		<script>
-			var images = $('.animation').toArray(), counter = 0, imageHeight = 100, speed = 10, width = $(window).width(), height = $(window).height();
+			var images = $('.animation').toArray(),
+				counter = 0,
+				imageHeight = 75,
+				speed = 10,
+				pad = 10
+				content = 800,
+				width = $(window).width(),
+				height = $(window).height();
 			
 			$(function() {
 				$('#home').addClass('active');
-				setInterval(animate, 1000 * (speed + 1) / images.length)
+				setInterval(animate, 1000 * (speed + pad) / images.length)
 			});
 
 			function animate() {
 				var cur = images[counter % images.length];
-				var x = width * Math.random();
+				var x = Math.random() > .5 ? (width - content) / 2 * Math.random() : (width - content) / 2 * Math.random() + (width + content) / 2;
 				$(cur).css('top', -imageHeight);
 				$(cur).css('left', x);
 				$(cur).animate({
