@@ -19,10 +19,10 @@
 		<script>
 			var images = $('.animation').toArray(),
 				counter = 0,
-				imageHeight = 75,
+				imageHeight = 100,
 				speed = 10,
-				pad = 10
-				content = 800,
+				pad = 10,
+				content = 900,
 				width = $(window).width(),
 				height = $(window).height();
 			
@@ -33,7 +33,7 @@
 
 			function animate() {
 				var cur = images[counter % images.length];
-				var x = Math.random() > .5 ? (width - content) / 2 * Math.random() : (width - content) / 2 * Math.random() + (width + content) / 2;
+				var x = Math.random() > .5 ? (width - content) / 2 * Math.random() + imageHeight : (width - content) / 2 * Math.random() + (width + content) / 2 - imageHeight;
 				$(cur).css('top', -imageHeight);
 				$(cur).css('left', x);
 				$(cur).animate({

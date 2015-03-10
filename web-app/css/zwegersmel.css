@@ -182,11 +182,10 @@ table.split-content td {
 
 .animation {
 	position: fixed;
-	top: -75px;
-	height: 75px;
+	top: -100px;
 	transform: translate(-50%, 0);
 	z-index: -1;
-	opacity: .25;
+	opacity: .5;
 }
 
 /* Other */
