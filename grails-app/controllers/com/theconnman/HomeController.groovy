@@ -1,5 +1,7 @@
 package com.theconnman
 
+import grails.converters.JSON
+
 class HomeController {
 	
 	def grailsApplication

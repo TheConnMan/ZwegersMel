@@ -6,6 +6,11 @@ html {
 	font-family: "EB Garamond";
 	text-align: center;
 	color: #555;
+	font-size: 1.25em;
+}
+
+h1 {
+	font-size: 2.5em;
 }
 
 h1, h2, h3, h4 {
@@ -47,6 +52,8 @@ a:hover {
 ul.menu {
 	list-style-type: none;
 	padding: 0;
+	font-size: .8em;
+	text-transform: uppercase;
 }
 
 .menu > li {
@@ -55,7 +62,7 @@ ul.menu {
 }
 
 ul.menu > li:hover, ul.menu > li.active {
-	background-color: #DDD;
+	background-color: #EEE;
 }
 
 ul.menu a:hover {
@@ -121,6 +128,7 @@ ul.menu a:hover {
 
 .title {
 	margin-top: 50px;
+	font-size: 1.75em;
 }
 
 .content {
