@@ -9,7 +9,7 @@ class HomeController {
     def index() { }
 
     def book() {
-		[images: ['Tree.jpg', 'Tea_Time.jpg', 'Welcome.jpg']]
+		[images: ['Fairy_Doors.jpg', 'Tree.jpg', 'Tea_Time.jpg']]
 	}
 
     def about() { }
