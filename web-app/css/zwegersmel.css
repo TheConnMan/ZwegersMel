@@ -47,6 +47,13 @@ a:hover {
 	margin-top: 25px;
 }
 
+.image-row {
+	display: inline-block;
+	text-align: center;
+	border: 1px solid #CCC;
+	cursor: pointer;
+}
+
 /* Menu */
 
 ul.menu {

@@ -3,6 +3,8 @@
 	<head>
 		<meta name="layout" content="basic"/>
 		<title>Melanie M Zwegers - Buy</title>
+		<g:javascript src="jquery.colorbox-min.js" />
+		<link href='${resource(dir: 'css', file: 'colorbox.css')}' rel='stylesheet' type='text/css' />
 	</head>
 	<body>
 		<div class="content">
@@ -10,6 +12,13 @@
 				<tr>
 					<td>
 						<img class="image-border" src="${resource(dir: 'images', file: 'Book.jpg')}" />
+						<div>
+							<g:each in="${ images }">
+								<div class="image-row" style="width: ${ 90 / images.size()}%;">
+									<img style="width: 100%;" src="${resource(dir: 'images', file: it)}" />
+								</div>
+							</g:each>
+						</div>
 					</td>
 					<td>
 						<h1>INTO THE GARDEN</h1>
@@ -44,6 +53,12 @@
 		<script>
 			$(function() {
 				$('#book').addClass('active');
+				$('.image-row > img').colorbox({
+					rel: 'image-row',
+					href: function() {
+						return $(this).attr('src');
+					}
+				});
 			});
 		</script>
 	</body>
