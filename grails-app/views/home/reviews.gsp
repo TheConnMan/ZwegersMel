@@ -7,7 +7,7 @@
 	<body>
 		<div class="content">
 			<g:if test="${ flash.message }">
-				<div class="message" style="max-width: 600px; margin: 0 auto;">
+				<div class="message ${ flash.error ? 'error' : '' }" style="max-width: 600px; margin: 0 auto;">
 					${ flash.message }
 				</div>
 			</g:if>
@@ -29,11 +29,11 @@
 				<h3>Let us know by filling out the form below!</h3>
 				<g:form action="submitReview" class="contact">
 					<label>Review Title</label><span class="required">*</span>
-					<g:field type="text" name="title" required="true" />
+					<g:field type="text" name="title" required="true" value="${ flash.params?.title }" maxlength="255" />
 					<label>Your Name</label>
-					<g:field type="text" name="author" placeholder="Anonymous" />
+					<g:field type="text" name="author" placeholder="Anonymous" maxlength="255" value="${ flash.params?.author }" />
 					<label>Review</label><span class="required">*</span>
-					<g:textArea name="content" required="true" maxlength="2000" />
+					<g:textArea name="content" required="true" maxlength="2000" value="${ flash.params?.content }" />
 					<button class="button">Submit Review</button>
 				</g:form>
 			</div>
