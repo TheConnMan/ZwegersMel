@@ -39,6 +39,11 @@ a:hover {
 	border: 1px solid #DDD;
 }
 
+.message.error {
+	color: red;
+	border-color: red;
+}
+
 .clickable {
 	cursor: pointer;
 }

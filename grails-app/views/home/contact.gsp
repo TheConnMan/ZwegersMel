@@ -7,7 +7,7 @@
 	<body>
 		<div class="content">
 			<g:if test="${ flash.message }">
-				<div class="message" style="max-width: 600px; margin: 0 auto;">
+				<div class="message ${ flash.error ? 'error' : '' }" style="max-width: 600px; margin: 0 auto;">
 					${ flash.message }
 				</div>
 			</g:if>
@@ -20,9 +20,9 @@
 						<h2>Contact Melanie M Zwegers</h2>
 						<g:form action="submitContact" class="contact">
 							<label>Name</label><span class="required">*</span>
-							<g:field type="text" name="name" required="true" />
+							<g:field type="text" name="name" required="true" maxlength="255" />
 							<label>Email</label><span class="required">*</span>
-							<g:field type="email" name="email" required="true" />
+							<g:field type="email" name="email" required="true" maxlength="255" />
 							<label>Comment</label><span class="required">*</span>
 							<g:textArea name="comment" required="true" maxlength="500" />
 							<button class="button">Submit</button>
