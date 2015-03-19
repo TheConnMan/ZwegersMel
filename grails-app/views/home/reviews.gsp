@@ -6,6 +6,9 @@
 	</head>
 	<body>
 		<div class="content">
+			<div class="message" style="max-width: 600px; margin: 0 auto;">
+				<b>NOTICE:</b> The site was under maintenance <b>3/11/15</b>-<b>3/18/15</b> and reviews were not correctly received. Please re-enter your review if you submitted during this time. Sorry for the inconvenience.
+			</div>
 			<g:if test="${ flash.message }">
 				<div class="message ${ flash.error ? 'error' : '' }" style="max-width: 600px; margin: 0 auto;">
 					${ flash.message }
