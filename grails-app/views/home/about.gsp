@@ -6,14 +6,20 @@
 	</head>
 	<body>
 		<div class="content">
-			<table class="split-content" style="width: 1000px; text-align: center;">
+			<table class="split-content" style="width: 1100px; text-align: center;">
 				<tr>
-					<td>
+					<td style="width: 35%;">
 						<img src="${resource(dir: 'images', file: 'Author.png')}" />
 					</td>
 					<td>
-						<p style="margin-top: 100px;">
-							Melanie Zwegers is an author and illustrator of books for young readers. She has lived in Japan, taught English to kindergarteners, middle schoolers, and adults, and volunteered as a docent in a historical village. When she isn’t reading or writing, she loves cooking, going for walks, taking care of two terrifically troublesome twin boys, and also has an ardent admiration for all things Austen—and alliterative; a periodically problematic penchant. She lives in Northville, Michigan.
+						<p style="margin-top: 40px;">
+							Melanie Zwegers is an author and illustrator of books for young readers.
+						</p>
+						<p>
+							She has lived in Japan, taught English to kindergarteners, middle schoolers, and adults, and volunteered as a docent in a historical village. When she isn’t reading or writing, she loves cooking, going for walks, taking care of two terrifically troublesome twin boys, and also has an ardent admiration for all things Austen—and alliterative; a periodically problematic penchant.
+						</p>
+						<p>
+							She lives in Northville, Michigan.
 						</p>
 					</td>
 				</tr>
