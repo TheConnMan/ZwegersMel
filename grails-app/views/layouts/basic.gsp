@@ -41,7 +41,7 @@
 		</ul>
 		<g:layoutBody/>
 		<div class="footer">
-			All content © 2015 Melanie M Zwegers
+			All content © 2016 Melanie M Zwegers
 		</div>
 		<r:layoutResources />
 	</body>
