@@ -13,13 +13,7 @@
 					</td>
 					<td>
 						<p style="margin-top: 100px;">
-							Melanie M Zwegers is a writer and illustrator of children's literature.
-						</p>
-						<p>
-							She is a native of Ann Arbor, Michigan and graduated with honors and two degrees from the University of Michigan.
-						</p>
-						<p>
-							She now lives and works in Northville, Michigan with the support and encouragement of her wonderful husband, family, and friends.
+							Melanie Zwegers is an author and illustrator of books for young readers. She has lived in Japan, taught English to kindergarteners, middle schoolers, and adults, and volunteered as a docent in a historical village. When she isn’t reading or writing, she loves cooking, going for walks, taking care of two terrifically troublesome twin boys, and also has an ardent admiration for all things Austen—and alliterative; a periodically problematic penchant. She lives in Northville, Michigan.
 						</p>
 					</td>
 				</tr>
