@@ -16,7 +16,7 @@
 							Melanie Zwegers is an author and illustrator of books for young readers.
 						</p>
 						<p>
-							She has lived in Japan, taught English to kindergarteners, middle schoolers, and adults, and volunteered as a docent in a historical village. When she isn’t reading or writing, she loves cooking, going for walks, taking care of two terrifically troublesome twin boys, and also has an ardent admiration for all things Austen—and alliterative; a periodically problematic penchant.
+							She has lived in Japan, taught English to kindergarteners, middle schoolers, and adults, and volunteered as a docent in a historical village. When she isn’t reading or writing, she loves cooking, going for walks, and taking care of two terrifically troublesome twin boys. She also has an ardent admiration for all things Austen and alliterative—a periodically problematic penchant.
 						</p>
 						<p>
 							She lives in Northville, Michigan.
